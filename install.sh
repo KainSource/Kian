@@ -71,7 +71,7 @@ RunKian:write([[
 cd $HOME/Kian
 token="]]..database:get(Server_Kian.."Token_Kian")..[["
 rm -fr Kian.lua
-wget "https://raw.githubusercontent.com/KianTele/Kian/master/Kian.lua"
+wget "https://raw.githubusercontent.com/KainSource/Kian/master/Kian.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Kian.lua -p PROFILE --bot=$token
