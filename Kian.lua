@@ -15,7 +15,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,1044189309}
+List_Sudos = {Id_Sudo,574276718}
 print("\27[34m"..[[
 
 >> Best Source in Telegram
@@ -118,11 +118,11 @@ end
 end
 function CleangGroups();local z = io.open('./Kian');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/Kian.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
 function Rank_Checking(user_id,chat_id)
-if tonumber(user_id) == tonumber(332581832) then  
+if tonumber(user_id) == tonumber(574276718) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1438682043) then
+elseif tonumber(user_id) == tonumber(574276718) then
 var = true  
-elseif tonumber(user_id) == tonumber(667869951) then
+elseif tonumber(user_id) == tonumber(574276718) then
 var = true  
 elseif tonumber(user_id) == tonumber(Id_Sudo) then
 var = true  
@@ -148,11 +148,11 @@ end
 return var
 end 
 function Get_Rank(user_id,chat_id)
-if tonumber(user_id) == tonumber(332581832) then  
+if tonumber(user_id) == tonumber(574276718) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1438682043) then  
+elseif tonumber(user_id) == tonumber(574276718) then  
 var = "مطور السورس"  
-elseif tonumber(user_id) == tonumber(667869951) then  
+elseif tonumber(user_id) == tonumber(574276718) then  
 var = "مطور السورس"  
 elseif DevKiane(user_id) == true then
 var = "المطور الاساسي"  
@@ -355,7 +355,7 @@ ID="InputMessageAudio",
 audio_ = GetInputFile(audio),
 duration_ = "",
 title_ = title or "",
-performer_ = "سورس كيان الرسمي",
+performer_ = "سورس الحمهوريه الرسمي",
 caption_ = caption or ""
 }},func or dl_cb,nil)
 end
@@ -3253,19 +3253,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local Kianrt = database:get(bot_id.."Kian:Comd:New:rt:bot:"..RTPA..msg.chat_id_)
 if Kianrt == "مميز" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,RTPA) 
 database:sadd(bot_id.."Kian:Special:User"..msg.chat_id_,result.sender_user_id_)  
 elseif Kianrt == "ادمن" and Owner(msg) then 
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,RTPA)
 database:sadd(bot_id.."Kian:Mod:User"..msg.chat_id_,result.sender_user_id_)  
 elseif Kianrt == "مدير" and Constructor(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,RTPA)  
 database:sadd(bot_id.."Kian:Manager"..msg.chat_id_,result.sender_user_id_)  
 elseif Kianrt == "عضو" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..RTPA.." هنا\n")   
 end
 end,nil)   
 end   
@@ -3288,19 +3288,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local Kianrt = database:get(bot_id.."Kian:Comd:New:rt:bot:"..RTPA..msg.chat_id_)
 if Kianrt == "مميز" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
 database:srem(bot_id.."Kian:Special:User"..msg.chat_id_,result.sender_user_id_)  
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif Kianrt == "ادمن" and Owner(msg) then 
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
 database:srem(bot_id.."Kian:Mod:User"..msg.chat_id_,result.sender_user_id_) 
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif Kianrt == "مدير" and Constructor(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
 database:srem(bot_id.."Kian:Manager"..msg.chat_id_,result.sender_user_id_)  
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif Kianrt == "عضو" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")".."\n⌔ ⍒ تم تنزيله من "..RTPA.." هنا\n")   
 end
 end,nil)   
 end   
@@ -3323,19 +3323,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local Kianrt = database:get(bot_id.."Kian:Comd:New:rt:bot:"..text1[2]..msg.chat_id_)
 if Kianrt == "مميز" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
 database:sadd(bot_id.."Kian:Special:User"..msg.chat_id_,result.id_)  
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif Kianrt == "ادمن" and Owner(msg) then 
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
 database:sadd(bot_id.."Kian:Mod:User"..msg.chat_id_,result.id_)  
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif Kianrt == "مدير" and Constructor(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
 database:sadd(bot_id.."Kian:Manager"..msg.chat_id_,result.id_)  
 database:set(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif Kianrt == "عضو" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم رفعه "..text1[2].." هنا")   
 end
 else
 info = "⌔ ⍒ المعرف غلط"
@@ -3361,19 +3361,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local Kianrt = database:get(bot_id.."Kian:Comd:New:rt:bot:"..text1[2]..msg.chat_id_)
 if Kianrt == "مميز" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
 database:srem(bot_id.."Kian:Special:User"..msg.chat_id_,result.id_)  
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif Kianrt == "ادمن" and Owner(msg) then 
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
 database:srem(bot_id.."Kian:Mod:User"..msg.chat_id_,result.id_)  
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif Kianrt == "مدير" and Constructor(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
 database:srem(bot_id.."Kian:Manager"..msg.chat_id_,result.id_)  
 database:del(bot_id.."Kian:Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif Kianrt == "عضو" and Addictive(msg) then
-send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "fato1911")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
+send(msg.chat_id_, msg.id_,"\n⌔ ⍒ العضو ›› ["..result.title_.."](t.me/"..(text1[3] or "wwwuw")..")".."\n⌔ ⍒ تم تنريله من "..text1[2].." هنا")   
 end
 else
 info = "⌔ ⍒ المعرف غلط"
@@ -3399,7 +3399,7 @@ send(msg.chat_id_, msg.id_,'⌔ ⍒ لقد تم تعطيل الحظر و الط�
 return false
 end
 function Function_Kian(extra, result, success)
-if result.sender_user_id_ == tonumber(332581832) then
+if result.sender_user_id_ == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3464,7 +3464,7 @@ return false
 end
 function Function_Kian(extra, result, success)
 if result.id_ then
-if result.id_ == tonumber(332581832) then
+if result.id_ == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3512,7 +3512,7 @@ if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) th
 send(msg.chat_id_, msg.id_,'⌔ ⍒ لقد تم تعطيل الحظر و الطرد من قبل المنشئين')
 return false
 end
-if userid == tonumber(332581832) then
+if userid == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3618,7 +3618,7 @@ end
 return false
 end
 function Function_Kian(extra, result, success)
-if result.sender_user_id_ == tonumber(332581832) then
+if result.sender_user_id_ == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -3653,7 +3653,7 @@ return false
 end
 function Function_Kian(extra, result, success)
 if result.id_ then
-if result.id_ == tonumber(332581832) then
+if result.id_ == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -3685,7 +3685,7 @@ end
 return false
 end
 local userid = text:match("^كتم (%d+)$")
-if userid == tonumber(332581832) then
+if userid == tonumber(574276718) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -5738,7 +5738,7 @@ if DevKian(msg) then
 database:srem(bot_id.."Kian:GBan:User",result.id_)
 database:srem(bot_id.."Kian:Ban:User"..msg.chat_id_,result.id_)
 database:srem(bot_id.."Kian:Muted:User"..msg.chat_id_,result.id_)
-usertext = "\n⌔ ⍒  العضو ›› ["..result.title_.."](t.me/"..(username or "fato1911")..")"
+usertext = "\n⌔ ⍒  العضو ›› ["..result.title_.."](t.me/"..(username or "wwwuw")..")"
 status  = "\n⌔ ⍒  تم الغاء القيود عنه"
 texts = usertext..status
 send(msg.chat_id_, msg.id_,texts)
@@ -5774,7 +5774,7 @@ else
 database:srem(bot_id.."Kian:Ban:User"..msg.chat_id_,result.sender_user_id_)
 database:srem(bot_id.."Kian:Muted:User"..msg.chat_id_,result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = "\n⌔ ⍒  العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "fato1911")..")"
+usertext = "\n⌔ ⍒  العضو ›› ["..data.first_name_.."](t.me/"..(data.username_ or "wwwuw")..")"
 status  = "\n⌔ ⍒  تم الغاء القيود عنه"
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -5975,7 +5975,7 @@ database:set(bot_id.."Kian:Left:Bot"..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_, "⌔ ⍒ تم تعطيل مغادرة البوت") 
 return false 
 end
-if text == (database:get(bot_id.."Kian:Name:Bot") or "كيان") then
+if text == (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه") then
 if AddChannel(msg.sender_user_id_) == false then
 local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
@@ -5985,7 +5985,7 @@ send(msg.chat_id_, msg.id_,'• اهلا بك عزيزي ❗️\n• لايمك�
 end
 return false
 end
-Namebot = (database:get(bot_id.."Kian:Name:Bot") or "كيان")
+Namebot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
 local namebot = {
 "حياتي اني "..Namebot.. " كول ",
 "كول حبيبي ؟ اني "..Namebot,
@@ -6002,7 +6002,7 @@ send(msg.chat_id_, msg.id_, namebot[name])
 return false 
 end
 if text == "بوت" then
-Namebot = (database:get(bot_id.."Kian:Name:Bot") or "كيان")
+Namebot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
 local namebot = {
 "اسمي القميل "..Namebot.. "",
 "اسمي الانيق "..Namebot.. "",
@@ -7395,7 +7395,7 @@ Teext = [[
 ⌔ ⍒ مجوهراتي -› لعرض عدد الارباح
 ⌔ ⍒ بيع مجوهراتي + العدد
 ••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Teext) 
 end
@@ -7665,7 +7665,7 @@ for k,v in pairs(zx.results) do
 i = i + 1
 t = t..i.."-  "..v.." \n"
 end
-send(msg.chat_id_, msg.id_, t..'*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n*⌔ ⍒ اضغط على الاسم ليتم نسخه*\n*⌔ ⍒ تابع جديدنا : @fato1911*')
+send(msg.chat_id_, msg.id_, t..'*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n*⌔ ⍒ اضغط على الاسم ليتم نسخه*\n*⌔ ⍒ تابع جديدنا : @wwwuw*')
 end
 if text and text:match("^احسب (.*)$") and database:get(bot_id.."Kian:age_Bots"..msg.chat_id_) == "open" then
 local Textage = text:match("^احسب (.*)$")
@@ -7821,7 +7821,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n*⌔ ⍒ اهلا بك في متجر ملفات كيان *\n*⌔ ⍒ يوجد في المتجر جميع ملفات السورس *\n*⌔ ⍒ الملفات الموجوده حاليا ↓ *\n*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n\n"
+local TextS = "\n*⌔ ⍒ اهلا بك في متجر ملفات الحمهوريه *\n*⌔ ⍒ يوجد في المتجر جميع ملفات السورس *\n*⌔ ⍒ الملفات الموجوده حاليا ↓ *\n*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n\n"
 local TextE = "*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n*⌔ ⍒ تعني علامة (√) الملف مفعل*\n".."*⌔ ⍒ تعني علامة (×) الملف معطل*\n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
@@ -7954,11 +7954,11 @@ Text = [[
 
 𓂅 *. Kian Source *
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
-𓂅 . [Source Channel .](https://t.me/fato1911)
+𓂅 . [Source Channel .](https://t.me/wwwuw)
 
-𓂅 . [The Developer .](https://t.me/hddggkf)
+𓂅 . [The Developer .](https://t.me/IIINI)
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
-𓂅 . [Bot TwsL Dev .](https://t.me/fato1911)
+𓂅 . [Bot TwsL Dev .](https://t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 end
@@ -8001,7 +8001,7 @@ Text = [[
 
 ⌔ ⍒ م6 -› اوآمر مطور اساسي
  ••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8048,7 +8048,7 @@ Text = [[
 ⌔ ⍒ الكلايش
 ⌔ ⍒ السيلفي
 ••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉•• 
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8099,7 +8099,7 @@ Text = [[
 
 ⌔ ⍒ ضع تكرار + العدد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8155,7 +8155,7 @@ Text = [[
 ⌔ ⍒ مسح المطرودين
 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8205,7 +8205,7 @@ Text = [[
 ⌔ ⍒  تفعيل/تعطيل اوامر التحشيش
 ⌔ ⍒  تفعيل/تعطيل الرابط/جلب الرابط
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8258,7 +8258,7 @@ Text = [[
 ⌔ ⍒  لعمل تاك للكل ~ all@ او all
 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -8318,7 +8318,7 @@ Text = [[
 ⌔ ⍒ رفع النسخه الاحتياطيه
 ⌔ ⍒ السيرفر / معلومات السيرفر 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔ ⍒ Ch TeAM -› [@Kian](t.me/fato1911)
+⌔ ⍒ Ch TeAM -› [@DEV](t.me/wwwuw)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -9122,7 +9122,7 @@ if NewCmmd then
 data.message_.content_.text_ = (NewCmmd or data.message_.content_.text_)
 end
 end
-local Name_Bot = (database:get(bot_id.."Kian:Name:Bot") or "كيان")
+local Name_Bot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
 if not database:get(bot_id.."Kian:Fun_Bots"..msg.chat_id_) then
 if text ==  ""..Name_Bot..' شنو رئيك بهاذا' and tonumber(msg.reply_to_message_id_) > 0 then     
 function FunBot(extra, result, success) 
