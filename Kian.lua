@@ -15,7 +15,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,574276718}
+List_Sudos = {Id_Sudo,370987883}
 print("\27[34m"..[[
 
 >> Best Source in Telegram
@@ -118,11 +118,11 @@ end
 end
 function CleangGroups();local z = io.open('./Kian');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/Kian.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
 function Rank_Checking(user_id,chat_id)
-if tonumber(user_id) == tonumber(574276718) then  
+if tonumber(user_id) == tonumber(370987883) then  
 var = true  
-elseif tonumber(user_id) == tonumber(574276718) then
+elseif tonumber(user_id) == tonumber(370987883) then
 var = true  
-elseif tonumber(user_id) == tonumber(574276718) then
+elseif tonumber(user_id) == tonumber(370987883) then
 var = true  
 elseif tonumber(user_id) == tonumber(Id_Sudo) then
 var = true  
@@ -148,11 +148,11 @@ end
 return var
 end 
 function Get_Rank(user_id,chat_id)
-if tonumber(user_id) == tonumber(574276718) then  
+if tonumber(user_id) == tonumber(370987883) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(574276718) then  
+elseif tonumber(user_id) == tonumber(370987883) then  
 var = "مطور السورس"  
-elseif tonumber(user_id) == tonumber(574276718) then  
+elseif tonumber(user_id) == tonumber(370987883) then  
 var = "مطور السورس"  
 elseif DevKiane(user_id) == true then
 var = "المطور الاساسي"  
@@ -355,7 +355,7 @@ ID="InputMessageAudio",
 audio_ = GetInputFile(audio),
 duration_ = "",
 title_ = title or "",
-performer_ = "سورس الحمهوريه الرسمي",
+performer_ = "سورس جاسم لكزز  الرسمي",
 caption_ = caption or ""
 }},func or dl_cb,nil)
 end
@@ -3399,7 +3399,7 @@ send(msg.chat_id_, msg.id_,'⌔ ⍒ لقد تم تعطيل الحظر و الط�
 return false
 end
 function Function_Kian(extra, result, success)
-if result.sender_user_id_ == tonumber(574276718) then
+if result.sender_user_id_ == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3464,7 +3464,7 @@ return false
 end
 function Function_Kian(extra, result, success)
 if result.id_ then
-if result.id_ == tonumber(574276718) then
+if result.id_ == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3512,7 +3512,7 @@ if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) th
 send(msg.chat_id_, msg.id_,'⌔ ⍒ لقد تم تعطيل الحظر و الطرد من قبل المنشئين')
 return false
 end
-if userid == tonumber(574276718) then
+if userid == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لا يمكنني حظر مطور السورس\n")
 return false 
 end
@@ -3618,7 +3618,7 @@ end
 return false
 end
 function Function_Kian(extra, result, success)
-if result.sender_user_id_ == tonumber(574276718) then
+if result.sender_user_id_ == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -3653,7 +3653,7 @@ return false
 end
 function Function_Kian(extra, result, success)
 if result.id_ then
-if result.id_ == tonumber(574276718) then
+if result.id_ == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -3685,7 +3685,7 @@ end
 return false
 end
 local userid = text:match("^كتم (%d+)$")
-if userid == tonumber(574276718) then
+if userid == tonumber(370987883) then
 send(msg.chat_id_, msg.id_, "⌔ ⍒ عذرآ لايمكنني كتم مطور السورس \n")
 return false 
 end
@@ -5975,7 +5975,7 @@ database:set(bot_id.."Kian:Left:Bot"..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_, "⌔ ⍒ تم تعطيل مغادرة البوت") 
 return false 
 end
-if text == (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه") then
+if text == (database:get(bot_id.."Kian:Name:Bot") or "جاسم لكزز ") then
 if AddChannel(msg.sender_user_id_) == false then
 local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
@@ -5985,7 +5985,7 @@ send(msg.chat_id_, msg.id_,'• اهلا بك عزيزي ❗️\n• لايمك�
 end
 return false
 end
-Namebot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
+Namebot = (database:get(bot_id.."Kian:Name:Bot") or "جاسم لكزز ")
 local namebot = {
 "حياتي اني "..Namebot.. " كول ",
 "كول حبيبي ؟ اني "..Namebot,
@@ -6002,7 +6002,7 @@ send(msg.chat_id_, msg.id_, namebot[name])
 return false 
 end
 if text == "بوت" then
-Namebot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
+Namebot = (database:get(bot_id.."Kian:Name:Bot") or "جاسم لكزز ")
 local namebot = {
 "اسمي القميل "..Namebot.. "",
 "اسمي الانيق "..Namebot.. "",
@@ -7821,7 +7821,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n*⌔ ⍒ اهلا بك في متجر ملفات الحمهوريه *\n*⌔ ⍒ يوجد في المتجر جميع ملفات السورس *\n*⌔ ⍒ الملفات الموجوده حاليا ↓ *\n*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n\n"
+local TextS = "\n*⌔ ⍒ اهلا بك في متجر ملفات جاسم لكزز  *\n*⌔ ⍒ يوجد في المتجر جميع ملفات السورس *\n*⌔ ⍒ الملفات الموجوده حاليا ↓ *\n*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n\n"
 local TextE = "*ꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ*\n*⌔ ⍒ تعني علامة (√) الملف مفعل*\n".."*⌔ ⍒ تعني علامة (×) الملف معطل*\n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
@@ -7956,7 +7956,7 @@ Text = [[
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
 𓂅 . [Source Channel .](https://t.me/wwwuw)
 
-𓂅 . [The Developer .](https://t.me/IIINI)
+𓂅 . [The Developer .](https://t.me/OO6OO)
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
 𓂅 . [Bot TwsL Dev .](https://t.me/wwwuw)
 ]]
@@ -9122,7 +9122,7 @@ if NewCmmd then
 data.message_.content_.text_ = (NewCmmd or data.message_.content_.text_)
 end
 end
-local Name_Bot = (database:get(bot_id.."Kian:Name:Bot") or "الحمهوريه")
+local Name_Bot = (database:get(bot_id.."Kian:Name:Bot") or "جاسم لكزز ")
 if not database:get(bot_id.."Kian:Fun_Bots"..msg.chat_id_) then
 if text ==  ""..Name_Bot..' شنو رئيك بهاذا' and tonumber(msg.reply_to_message_id_) > 0 then     
 function FunBot(extra, result, success) 
